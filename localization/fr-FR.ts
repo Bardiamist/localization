@@ -26,7 +26,7 @@ export const strings: typeof enStrings = {
   },
 
   main: {
-    supportUrl: `${supportNewRequestUrl}?ticket-id=354522`,
+    supportUrl: `${supportNewRequestUrl}?ticket-id=354523`,
     getStateDescription: (vehicleName: string) => `Ton ${vehicleName} état:`,
   },
   address: {
