@@ -7,16 +7,16 @@ import {
 const dateFormat = 'DD MM YYYY';
 
 const supportUrl = 'https://support.my-site.com';
-const localizedSupportUrl = `${supportUrl}/fr-fr/`;
+const localizedSupportUrl = `${supportUrl}/en-us/`;
 const articlesUrl = `${localizedSupportUrl}articles/`;
 const supportNewRequestUrl = `${localizedSupportUrl}new`;
 
-const getCommonAddressTitle = (vehicleName: string) => `Votre ${vehicleName} adresse`;
+const getCommonAddressTitle = (vehicleName: string) => `Your ${vehicleName} address`;
 
 export const strings: typeof enStrings = {
-  bookTitle: 'Livre',
+  bookTitle: 'Book',
 
-  commonErrorMessage: "Oups, quelque chose s'est mal passé",
+  commonErrorMessage: 'Oops, something went wrong',
 
   supportNewRequestUrl,
 
@@ -27,10 +27,10 @@ export const strings: typeof enStrings = {
 
   main: {
     supportUrl: `${supportNewRequestUrl}?ticket-id=354522`,
-    getStateDescription: (vehicleName: string) => `Ton ${vehicleName} état:`,
+    getStateDescription: (vehicleName: string) => `Your ${vehicleName} state:`,
   },
   address: {
-    getCarAddressTitle: (vehicleName: string) => `${getCommonAddressTitle(vehicleName)} (Auto)`,
+    getCarAddressTitle: (vehicleName: string) => `${getCommonAddressTitle(vehicleName)} (Car)`,
     getBusAddressTitle: (vehicleName: string) => `${getCommonAddressTitle(vehicleName)} (Bus)`,
   }
 };
