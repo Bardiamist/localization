@@ -7,14 +7,14 @@ import {
 const dateFormat = 'DD MM YYYY';
 
 const supportUrl = 'https://support.my-site.com';
-const localizedSupportUrl = `${supportUrl}/en-us/`;
+const localizedSupportUrl = `${supportUrl}/fr-fr/`;
 const articlesUrl = `${localizedSupportUrl}articles/`;
 const supportNewRequestUrl = `${localizedSupportUrl}new`;
 
 const getCommonAddressTitle = (vehicleName: string) => `Your ${vehicleName} address`;
 
 export const strings: typeof enStrings = {
-  bookTitle: 'Book',
+  bookTitle: 'Livre',
 
   commonErrorMessage: 'Oops, something went wrong',
 
